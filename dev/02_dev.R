@@ -27,6 +27,7 @@ golem::add_fct("generate_turns_table")
 #' Before pushes
 #' --------------------------------------------------------------------
 #'
+renv::status()
 usethis::use_tidy_description()
 spelling::spell_check_package()
 spelling::update_wordlist()

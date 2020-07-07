@@ -13,14 +13,24 @@ mod_import_data_ui <- function(id) {
 
     sidebarPanel(
       fluidRow(
-        column(6, numericInput(ns("turns"), "Number of turns",
-                   value = 1, min = 1, step = 1
-        )),
-        column(6, numericInput(ns("groups"), "Number of groups",
-                   value = 1, min = 1, step = 1
-        ))
+        column(6,
+          numericInput(ns("turns"), "Number of turns",
+            value = 1, min = 1, step = 1
+          )
+        ),
+        column(6,
+          numericInput(ns("groups"), "Number of groups",
+            value = 1, min = 1, step = 1
+          )
+        )
       ),
-      fileInput(ns("sheet"), "Select the file to use", accept = ".xlsx")
+      fileInput(
+        ns("sheet"), "Select the file to use", accept = ".xlsx"
+      ),
+      HTML("
+        File must be an .xlsx with columns: `matricola`, `cognome`,
+        `nome`, and `cds_cod`
+      ")
     ),
 
     mainPanel(
