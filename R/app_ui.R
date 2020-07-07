@@ -9,7 +9,8 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     fluidPage(
       h1("grouper")
-    )
+    ),
+    mod_import_data_ui("import-data")
   )
 }
 #' Add external Resources to the Application
