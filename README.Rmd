@@ -17,11 +17,23 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/grouper)](https://CRAN.R-project.org/package=grouper)
 <!-- badges: end -->
 
-The goal of grouper is to ...
+For Zoom examination it is useful to divided students into breakout
+rooms. When students are in a large number it could be necessary to
+consider multiple turns to complete an examination. `{grouper}` help you
+in grouping students in turns and in breakout room within each turn.
 
 ## Installation
+
+You can install the development version from
+[GitHub](https://github.com/) with the following procedure:
+
+```{r, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("CorradoLanera/grouper")
+```
 
 ## Code of Conduct
 
