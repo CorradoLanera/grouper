@@ -9,6 +9,12 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/grouper)](https://CRAN.R-project.org/package=grouper)
+[![R build
+status](https://github.com/CorradoLanera/grouper/workflows/lint/badge.svg)](https://github.com/CorradoLanera/grouper/actions)
+[![R build
+status](https://github.com/CorradoLanera/grouper/workflows/R-CMD-check/badge.svg)](https://github.com/CorradoLanera/grouper/actions)
+[![R build
+status](https://github.com/CorradoLanera/grouper/workflows/test-coverage/badge.svg)](https://github.com/CorradoLanera/grouper/actions)
 <!-- badges: end -->
 
 For Zoom examination it is useful to divided students into breakout
@@ -22,7 +28,9 @@ You can install the development version from
 [GitHub](https://github.com/) with the following procedure:
 
 ``` r
+
 # install.packages("devtools")
+
 devtools::install_github("CorradoLanera/grouper")
 ```
 
