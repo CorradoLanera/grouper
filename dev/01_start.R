@@ -67,4 +67,9 @@ lintr::lint_package()
 renv::status()
 devtools::check()
 
+renv::install("GuangchuangYu/badger")
+badger::badge_custom("WEBsite", "click-me", "orange", "https://r-ubesp.dctv.unipd.it/shiny/grouper/")
+renv::install("magick")
+usethis::use_logo("dev/grouper/icon.png")
+
 rstudioapi::navigateToFile( "dev/02_dev.R" )

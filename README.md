@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# grouper
+# grouper [![](https://img.shields.io/badge/LIVEservice-click--here-orange.svg)](https://r-ubesp.dctv.unipd.it/shiny/grouper/) <img src='man/figures/logo.png' align="right" height="120" />
 
 <!-- badges: start -->
 
@@ -17,10 +17,13 @@ status](https://github.com/CorradoLanera/grouper/workflows/R-CMD-check/badge.svg
 status](https://github.com/CorradoLanera/grouper/workflows/test-coverage/badge.svg)](https://github.com/CorradoLanera/grouper/actions)
 <!-- badges: end -->
 
-For Zoom examination it is useful to divided students into breakout
-rooms. When students are in a large number it could be necessary to
-consider multiple turns to complete an examination. `{grouper}` help you
-in grouping students in turns and in breakout room within each turn.
+For Zoom (and other on-line or in person) examinations it could be
+useful to divided students into breakout rooms. When students are in a
+large number it could be necessary to consider multiple turns to
+complete an examination too.
+
+`{grouper}` help you in grouping students in turns and in breakout room
+within each turn.
 
 ## Installation
 
@@ -33,6 +36,12 @@ You can install the development version from
 
 devtools::install_github("CorradoLanera/grouper")
 ```
+
+## Disclaimer
+
+`{grouper}`’s logo is s from the [Open Clip Art
+Library](https://openclipart.org/), which released it explicitly into
+the [public domain](https://en.wikipedia.org/wiki/public_domain)
 
 ## Code of Conduct
 
