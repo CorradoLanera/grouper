@@ -1,7 +1,7 @@
 Package: grouper
 Title: A Shiny App to Group Students in Turns and Rooms for
     Online Exams
-Version: 0.0.0.9001
+Version: 0.1.0
 Authors@R: 
     person(given = "Corrado",
            family = "Lanera",
@@ -18,15 +18,27 @@ BugReports: https://www.github.com/CorradoLanera/grouper/issues
 Imports: 
     attempt,
     config,
+    dplyr,
     DT,
     glue,
     golem,
     htmltools,
+    janitor,
+    magrittr,
     processx,
-    shiny
+    readxl,
+    rlang (>= 0.1.2),
+    shiny,
+    stringr
 Suggests: 
+    devtools,
+    goodpractice,
+    lintr,
+    roxygen2,
     spelling,
-    testthat
+    testthat,
+    usethis,
+    withr
 Encoding: UTF-8
 Language: en-US
 LazyData: true
