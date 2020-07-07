@@ -34,6 +34,6 @@ devtools::test()
 devtools::check()
 
 usethis::use_github()
-
+use_tidy_github()
 
 rstudioapi::navigateToFile( "dev/02_dev.R" )
