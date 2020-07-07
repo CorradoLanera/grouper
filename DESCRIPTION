@@ -13,6 +13,8 @@ Description: For Zoom examination it is useful to divided
     examination. {grouper} help you in grouping students in turns and in
     breakout room within each turn.
 License: GPL-3
+URL: https://www.github.com/CorradoLanera/grouper
+BugReports: https://www.github.com/CorradoLanera/grouper/issues
 Imports: 
     attempt,
     config,
