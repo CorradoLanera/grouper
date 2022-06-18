@@ -4,14 +4,11 @@
 \name{grouper-package}
 \alias{grouper}
 \alias{grouper-package}
-\title{grouper: A Shiny App to Group Students in Turns and Rooms for
-    Online Exams}
+\title{grouper: A Shiny App to Group Students in Turns and Rooms for Online Exams}
 \description{
-For Zoom examination it is useful to divided
-    students into breakout rooms. When students are in a large number it
-    could be necessary to consider multiple turns to complete an
-    examination. {grouper} help you in grouping students in turns and in
-    breakout room within each turn.
+\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+
+For Zoom examination it is useful to divided students into breakout rooms. When students are in a large number it could be necessary to consider multiple turns to complete an examination. {grouper} help you in grouping students in turns and in breakout room within each turn.
 }
 \seealso{
 Useful links:
