@@ -620,8 +620,14 @@
     "grouper": {
       "Package": "grouper",
       "Version": "0.1.0",
-      "Source": "unknown",
-      "Hash": "695ad54048efc4236ea5db86a0c00cfe",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "CorradoLanera",
+      "RemoteRepo": "grouper",
+      "RemoteRef": "master",
+      "RemoteSha": "e3b5d722c28e1062b36a03be9a9506eeceab5d45",
+      "Hash": "a97cbfd4f86b797d80b318961d73513c",
       "Requirements": [
         "DT",
         "attempt",
